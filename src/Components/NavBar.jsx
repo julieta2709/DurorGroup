@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import LogoDuror from "../assets/LogoDuror4-removebg.png";
+import LogoDuror from "../assets/LogoDuror-removebg.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../Styles/NavBar.css";
 
@@ -15,7 +15,7 @@ const NavBar = () => {
         <nav className="navbar">
           <div className="logo-container">
         <Link to="/" className="navbar-logo"><img className="logo" src={LogoDuror} alt="Logo Duror Group" />
-          Duror Group
+          DUROR GROUP
         </Link>
         </div>
         <div className="navbar-menu" onClick={handleToggleMenu}>
