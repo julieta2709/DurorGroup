@@ -1,10 +1,9 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem;
 }
-
 .logo-container {
   display: flex;
   align-items: center;
@@ -13,88 +12,83 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #333;
   text-decoration: none;
 }
-
 .logo {
   width: 3em;
+  margin: 10px;
+  margin-right: 20px;
 }
-
 .navbar-menu {
   display: none;
-  font-size: 2.5rem;
-  color: #333;
-  cursor: pointer;
-  text-decoration: none;
 }
-
-.menu-icon {
-  margin-right: 0.5rem;
-}
-
 .nav-menu {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
-
 .nav-item {
-  margin-right: 1rem;
-  font-family: "Juventus Fans Bold", sans-serif;
-  z-index: 1;
+  display: flex;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+  border-bottom: solid 1px transparent;
 }
-
+.nav-item:hover {
+  border-bottom: solid 2px #ccc;
+}
 .nav-link {
-  font-size: 1.5rem;
-  color: #333;
   text-decoration: none;
+  font-family: "Juventus Fans Bold", sans-serif;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
   .logo {
     width: 2em;
   }
-  .navbar-menu {
-    display: block;
-    z-index: auto;
-  }
-  .nav-link {
-    font-size: 1rem;
+  .navbar-logo {
+    font-size: 2.5rem;
   }
   .nav-menu {
+    display: none;
+  }
+  .nav-menu.active {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    background-color: #ffffff;
+  }
+  .navbar-menu {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 4rem;
-    left: -100%;
-    width: 100%;
-    background-color: #000000;
-    box-shadow: #333;
-    z-index: auto;
-  }
-
-  .nav-menu.active {
-    left: 0;
-    z-index: auto;
-  }
-
-  .nav-item {
-    margin-right: 0;
-    margin-bottom: 1rem;
-    text-align: center;
-    width: 100%;
-    border-bottom: solid 1px #ccc;
-    padding-bottom: 0.5rem;
-    box-sizing: border-box;
-    opacity: 0;
-  }
-
-  .nav-link {
-    font-size: 1rem;
-    color: #fff8f8;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #333;
+    cursor: pointer;
     text-decoration: none;
+    background-color: #ffffff;
+    padding: 1px;
+    border: #333;
+    border-radius: 2px;
+    border-style: solid;
+  }
+  .navbar-menu:hover {
+    background-color: rgb(43, 180, 43);
+    color: #ffffff;
   }
 }

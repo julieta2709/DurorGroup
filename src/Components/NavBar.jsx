@@ -12,6 +12,7 @@ const NavBar = () => {
         setShowMenu(!showMenu);
       };
     return (
+      
         <nav className="navbar">
           <div className="logo-container">
         <Link to="/" className="navbar-logo"><img className="logo" src={LogoDuror} alt="Logo Duror Group" />
