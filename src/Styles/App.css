@@ -6,6 +6,9 @@
 ul {
   list-style: none;
 }
+.li {
+  text-decoration: none;
+}
 
 @font-face {
   font-family: "Juventus Fans Bold";

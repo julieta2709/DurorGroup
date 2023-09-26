@@ -6,6 +6,7 @@ import Services from "./Pages/Services";
 import Works from "./Pages/Works";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import WhatsappButton from "./Components/WhatsappButton";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path={"/Clients"} element={<Clients />} />
           <Route path={"/Contact"} element={<Contact />} />
         </Routes>
+        <WhatsappButton/>
         <Footer />
       </BrowserRouter>
     </div>
