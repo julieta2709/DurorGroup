@@ -72,6 +72,9 @@
   .nav-menu {
     display: none;
   }
+  .navbar-logo .logo-group {
+    margin-right: 5px;
+  }
   .nav-menu.active {
     display: flex;
     margin: 1rem;
