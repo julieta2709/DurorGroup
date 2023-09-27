@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="logo-container">
         <Link to="/" className="navbar-logo">
           <img className="logo" src={LogoDuror} alt="Logo Duror Group" />
-          DUROR GROUP
+          DUROR <span className="logo-group">GROUP</span>
         </Link>
       </div>
       <div className="navbar-menu" onClick={handleToggleMenu}>

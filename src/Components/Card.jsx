@@ -1,16 +1,37 @@
-import React from 'react';
-import { FaArrowsAlt, FaLightbulb, FaRegHandshake, FaMapMarkedAlt} from 'react-icons/fa';
+import React from "react";
+import {
+  FaArrowsAlt,
+  FaLightbulb,
+  FaRegHandshake,
+  FaMapMarkedAlt,
+} from "react-icons/fa";
+import "../Styles/Card.css";
 
-const Card = ({ title, icon, description }) => {
+const Card = ({ title, iconType, description }) => {
+  let icon;
+  switch (iconType) {
+    case "arrows":
+      icon = <FaArrowsAlt className="Card-Icon" />;
+      break;
+    case "lightbulb":
+      icon = <FaLightbulb className="Card-Icon" />;
+      break;
+    case "handshake":
+      icon = <FaRegHandshake className="Card-Icon" />;
+      break;
+    case "map":
+      icon = <FaMapMarkedAlt className="Card-Icon" />;
+      break;
+    default:
+      icon = null;
+  }
   return (
-    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
-      {icon && (
-       <div style={{ marginBottom: '10px' }}>
-       <FaArrowsAlt size={64} />
-     </div>
-      )}
-      <h2>{title}</h2>
-      <p>{description}</p>
+    <div className="Card-container">
+      <div className="Card-content">
+        {icon && <div>{icon}</div>}
+        <h3 className="Card-title">{title}</h3>
+        <p className="Card-description">{description}</p>
+      </div>
     </div>
   );
 };
