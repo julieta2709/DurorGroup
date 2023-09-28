@@ -1,20 +1,21 @@
 .Home-container {
-    background-color: white;
+    background-color: #222;
 }
 .Home-container h1,
 h2 {
   text-align: center;
   font-family: "Juventus Fans Bold", sans-serif;
+  color: white;
 }
 .Home-container h1 {
   font-size: 5em;
 }
-.Home-container .logo-group {
+.Home-container .logo-group, h2 {
     color:#7cf909;
 }
 .Home-container h2 {
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .Home-cardContainer {
   display: flex;
@@ -23,9 +24,14 @@ h2 {
 .Home-description {
   font-size: 1.5em;
   text-align: center;
-  padding: 30px;
+  padding: 30px 100px 30px 100px;
   font-family: Verdana, Tahoma, sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.Home-descriptionhighlighted {
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Juventus Fans Bold", sans-serif;
 }
 @media screen and (max-width: 768px) {
   .Home-cardContainer {

@@ -21,6 +21,7 @@ function App() {
           <Route path={"/Clients"} element={<Clients />} />
           <Route path={"/Contact"} element={<Contact />} />
         </Routes>
+        <Contact/>
         <WhatsappButton/>
         <Footer />
       </BrowserRouter>

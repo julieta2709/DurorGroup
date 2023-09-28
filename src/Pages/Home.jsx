@@ -33,8 +33,8 @@ const Home = () => {
       <p className="Home-description">
         Ya sea que esté buscando servicios de mantenimiento preventivo o
         correctivo, construcción de obras civiles, instalaciones eléctricas,
-        servicios de limpieza o cualquier otro servicio relacionado, estamos
-        aquí para ayudarte.
+        servicios de limpieza o cualquier otro servicio relacionado, 
+        <span className="Home-descriptionhighlighted">¡Estamos aquí para ayudarte!</span>
       </p>
     </div>
   );

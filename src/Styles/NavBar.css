@@ -18,7 +18,7 @@
   color: #000000;
   text-decoration: none;
   background-color: #ffffff;
-  border: none;
+  border: solid 5px #6b6969;
   border-radius: 17px;
   padding: 5px;
 }
@@ -73,7 +73,7 @@
     display: none;
   }
   .navbar-logo .logo-group {
-    margin-right: 5px;
+    margin-right: 5npm px;
   }
   .nav-menu.active {
     display: flex;
