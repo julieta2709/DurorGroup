@@ -37,7 +37,7 @@ function Formulario() {
       </div>
       <div>
         <label className='Form-label' htmlFor="correo">Correo Electrónico:</label>
-        <input className="Form-input" type="email" id="correo" value={correo} onChange={(event) => setCorreo(event.target.value)} />
+        <input className="Form-input" type="email" id="correo" placeholder='nombre@email.com' value={correo} onChange={(event) => setCorreo(event.target.value)} />
       </div>
       <div>
         <label className='Form-label' htmlFor="consulta">Consulta:</label>

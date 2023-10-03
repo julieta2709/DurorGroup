@@ -1,8 +1,16 @@
 .Form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  width: 50%;
+  margin-left: 40px;
+  color: white;
+  font-family: Verdana, Tahoma, sans-serif;
   }
   
   .Form-label {
@@ -17,7 +25,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 95%;
   }
   
   .Form-textarea {
