@@ -11,37 +11,40 @@
   margin-left: 40px;
   color: white;
   font-family: Verdana, Tahoma, sans-serif;
-  }
-  
-  .Form-label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .Form-input[type="text"],
-  .Form-input[type="email"],
-  .Form-textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    width: 98%;
-  }
-  
-  .Form-textarea {
-    height: 150px;
-  }
-  
-  button[type="submit"] {
-    background-color: #0077cc;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 30%;
- }
-  
-  button[type="submit"]:hover {
-    background-color: #005fa3;
-  }
+}
+
+.Form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Form-input[type="text"],
+.Form-input[type="email"],
+.Form-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 98%;
+}
+
+.Form-textarea {
+  height: 150px;
+}
+.button-container {
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #a5ae9d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+}
+
+button[type="submit"]:hover {
+  background-color: #00aae9;
+}

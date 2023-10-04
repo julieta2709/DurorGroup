@@ -1,19 +1,22 @@
-.WspButton-container{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #25d366;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+.WspButton-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
 }
 .WspButton {
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer; 
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.WspButton-container:hover {
+    background-color: #00cc86;
 }

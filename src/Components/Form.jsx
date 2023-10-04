@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../Styles/Formulario.css"
 
-function Formulario() {
+function Form () {
   const [nombre, setNombre] = useState('');
   const [apellido, setApellido] = useState('');
   const [correo, setCorreo] = useState('');
@@ -27,6 +27,7 @@ function Formulario() {
 
   return (
     <form className='Form-container' onSubmit={handleSubmit}>
+      <h3>Envianos tu consulta</h3>
       <div>
         <label className='Form-label' htmlFor="nombre">Nombre:</label>
         <input className="Form-input" type="text" id="nombre" value={nombre} onChange={(event) => setNombre(event.target.value)} />
@@ -43,9 +44,11 @@ function Formulario() {
         <label className='Form-label' htmlFor="consulta">Consulta:</label>
         <textarea className='Form-textarea' id="consulta" value={consulta} onChange={(event) => setConsulta(event.target.value)} />
       </div>
+      <div className='button-container'>
       <button type="submit">Enviar</button>
+      </div>
     </form>
   );
 }
 
-export default Formulario;
+export default Form;

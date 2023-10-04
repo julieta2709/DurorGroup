@@ -6,54 +6,54 @@
   font-size: 1.2em;
   padding: 1em;
 }
-.Footer-social p {
+.Footer-container .social p {
   font-size: 1.5em;
 }
-.Footer-social,
-.Footer-direction,
-.Footer-mail,
-.Footer-wsp {
+.Footer-container .social,
+.Footer-container .direction,
+.Footer-container .mail,
+.Footer-container .wsp-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
-.social-icons {
+.Footer-container .social-icons {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   margin-top: 10px;
 }
-.IG,
-.FB,
-.WSP,
-.location,
-.envelope {
+.Footer-container .IG,
+.Footer-container .FB,
+.Footer-container .wsp-number,
+.Footer-container .location,
+.Footer-container .envelope {
   fill: rgb(255, 255, 255);
 }
-.IG,
-.FB,
-.WSP {
+.Footer-container .IG,
+.Footer-container .FB,
+.Footer-container .WSP {
   height: 3.5rem;
   width: 70%;
 }
-.Footer-contact {
+.Footer-container .contact-wsp {
   display: flex;
   align-items: stretch;
   width: 50%;
   justify-content: space-between;
 }
-.location,
-.envelope {
+.Footer-container .location,
+.Footer-container .envelope {
   width: 25%;
   height: 2.8rem;
 }
-.Footer-mail,
-.Footer-wsp {
+.Footer-container .mail,
+.Footer-container .wsp-icon {
   text-decoration: none;
 }
-.Footer-mail p,
-.Footer-wsp p {
+.Footer-container .mail p,
+.Footer-container .wsp-number p {
   color: rgb(255, 255, 255);
 }
 
