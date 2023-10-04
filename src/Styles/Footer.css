@@ -9,6 +9,7 @@
 .Footer-container .social p {
   font-size: 1.5em;
 }
+
 .Footer-container .social,
 .Footer-container .direction,
 .Footer-container .mail,
@@ -37,7 +38,7 @@
   height: 3.5rem;
   width: 70%;
 }
-.Footer-container .contact-wsp {
+.Footer-container .contact-data {
   display: flex;
   align-items: stretch;
   width: 50%;

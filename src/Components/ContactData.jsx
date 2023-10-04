@@ -23,7 +23,7 @@ const ContactData = ({render}) => {
           </a>
         </div>
       </div>
-      <div className="contact-wsp">
+      <div className="contact-data">
         <a
           href="https://api.whatsapp.com/send?phone=5491151180872"
           className="wsp-icon"
