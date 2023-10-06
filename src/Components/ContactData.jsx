@@ -26,10 +26,10 @@ const ContactData = ({render}) => {
       <div className="contact-data">
         <a
           href="https://api.whatsapp.com/send?phone=5491151180872"
-          className="wsp-icon"
+          className="wsp"
         >
-          <FaWhatsapp className="wsp-number" />
-          <p>11 5118-0872</p>
+          <FaWhatsapp className="wsp-icon" />
+          <p className="wsp-number">11 5118-0872</p>
         </a>
         <a href="mailto:infoduror@gmail.com" className="mail">
           <FaEnvelope className="envelope" />
