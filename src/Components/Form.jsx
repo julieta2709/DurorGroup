@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../Styles/Formulario.css"
+import "../Styles/Form.css"
 
 function Form () {
   const [nombre, setNombre] = useState('');

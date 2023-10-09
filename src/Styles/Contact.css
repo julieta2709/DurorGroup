@@ -1,7 +1,20 @@
 .Contact-container {
     display: flex;
 }
+.Contact-container h2{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #7cf909;
+}
 
 .Contact-content {
     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+    .Contact-content {
+        flex-direction: column;
+    }
 }

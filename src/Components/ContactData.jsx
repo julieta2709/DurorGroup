@@ -7,11 +7,13 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import "../Styles/Footer.css";
-import "../Styles/Contact-data.css"
+import "../Styles/Contact-data.css";
 
-const ContactData = ({render}) => {
+const ContactData = ({ render }) => {
   return (
-    <div className={render === "footer" ? "Footer-container" : "Contact-container"}>
+    <div
+      className={render === "footer" ? "Footer-container" : "Contact-container"}
+    >
       <div className="social">
         <p>Seguinos en nuestras redes sociales:</p>
         <div className="social-icons">
@@ -24,13 +26,18 @@ const ContactData = ({render}) => {
         </div>
       </div>
       <div className="contact-data">
-        <a
-          href="https://api.whatsapp.com/send?phone=5491151180872"
-          className="wsp"
-        >
-          <FaWhatsapp className="wsp-icon" />
-          <p className="wsp-number">11 5118-0872</p>
-        </a>
+        <div className="wsp-container">
+          <a
+            href="https://api.whatsapp.com/send?phone=5491151180872"
+            className="wsp"
+          >
+            <FaWhatsapp className="wsp-icon" />
+          </a>
+          <div className="wsp-numberContainer">
+            <p className="wsp-number">11 5118-0872</p>
+            <p className="wsp-numberS">11 3244-2237</p>
+          </div>
+        </div>
         <a href="mailto:infoduror@gmail.com" className="mail">
           <FaEnvelope className="envelope" />
           <p>infoduror@gmail.com</p>
