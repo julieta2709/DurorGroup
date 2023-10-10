@@ -1,7 +1,12 @@
 import React from "react";
+import CardServices from "../Components/CardServices";
 const Services = () => {
     return (
-        <h1>Servicios</h1>
+        <CardServices
+        title="Electricidad"
+        iconType="bolt"
+        description="Trabajos electricos"
+        />
     )
 }
 export default Services;

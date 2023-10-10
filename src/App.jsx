@@ -21,8 +21,9 @@ function App() {
           <Route path={"/Clients"} element={<Clients />} />
           <Route path={"/Contact"} element={<Contact />} />
         </Routes>
-        <Contact/>
-        <WhatsappButton/>
+        <Services />
+        <Contact />
+        <WhatsappButton />
         <Footer />
       </BrowserRouter>
     </div>
