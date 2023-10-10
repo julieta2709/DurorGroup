@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "categorie": "services",
+    "iconType": "Plug",
+    "title": "Mantenimiento eléctrico",
+    "description": [
+      "Predictivo, Preventivo y Correctivo",
+      "Instalación y mantenimiento de tableros eléctricos.",
+      "Cableado en general y subterráneo, puesta a tierra.",
+      "Instalación y mantenimiento de luminarias (interior y exterior), bandejas aéreas, tomas, etc."
+    ]
+  },
+  {
+    "id": 2,
+    "categorie": "services",
+    "iconType": "PaintRoller",
+    "title": "Plomería / Pintura / Albañilería / Herrería",
+    "description": ["Mampostería, Refacciones, Pintura en general."]
+  },
+  {
+    "id": 3,
+    "categorie": "services",
+    "iconType": "Warehouse",
+    "title": "Mantenimiento de Techos",
+    "description": [
+      "Reparación y arreglo de todo tipo de techos en plantas industriales y centros de distribución.",
+      "Trabajos de zinguería"
+    ]
+  },
+  {
+    "id": 4,
+    "categorie": "services",
+    "iconType": "AirConditioning",
+    "title": "Mantenimiento de Sistemas de Refrigeración",
+    "description": [
+      "Predictivo, Preventivo y Correctivo",
+      "Limpieza, ajuste y reemplazo de equipos domiciliarios e industriales",
+      "Equipos centralizados, Enfriadoras, Torres de enfriamiento",
+      "Instalación de equipos de refrigeración industriales y domiciliarios",
+      "Atención de urgencias"
+    ]
+  },
+  {
+    "id": 5,
+    "categorie": "services",
+    "iconType": "ChargingStation",
+    "title": "Mantenimiento de grupos electrógenos",
+    "description": [
+      "Predictivo, Preventivo y Correctivo",
+      "Instalación de equipos",
+      "Limpieza de equipos, reemplazo de consumibles",
+      "Atención de urgencias"
+    ]
+  },
+  {
+    "id": 6,
+    "categorie": "services",
+    "iconType": "Wrench",
+    "title": "Mantenimiento de calderas",
+    "description": [
+      "Predictivo, Preventivo y Correctivo",
+      "Instalación de equipos",
+      "Limpieza de equipos",
+      "Reparaciones",
+      "Atención de urgencias"
+    ]
+  },
+  {
+    "id": 7,
+    "categorie": "services",
+    "iconType": "Building",
+    "title": "Obra Civil",
+    "description": [
+      "Proyectos llave en mano",
+      "Reparaciones y reformas",
+      "Montajes (personal fijo o spot)"
+    ]
+  },
+  {
+    "id": 8,
+    "categorie": "services",
+    "iconType": "BusinessTime",
+    "title": "Facility Mangement",
+    "description": ["Gestionamos los servicios para empresas e industrias"]
+  },
+  {
+    "id": 9,
+    "categorie": "services",
+    "iconType": "Broom",
+    "title": "Servicios",
+    "description": [
+      "Limpieza final de obra",
+      "Personal eventual",
+      "Limpieza de oficinas"
+    ]
+  },
+  {
+    "id": 10,
+    "categorie": "services",
+    "iconType": "HandTruck",
+    "title": "Provisión de insumos",
+    "description": [
+      "Proveemos materiales, insumos, maquinas, equipamiento para empresas, facilitamos todo tipo de producto que el cliente necesite"
+    ]
+  },
+  {
+    "id": 11,
+    "categorie": "services",
+    "iconType": "Toolbox",
+    "title": "Otros",
+    "description": [
+      "Colocación de vidrios en equipos móviles",
+      "Limpieza de baterías"
+    ]
+  },
+  {
+    "id": 12,
+    "categorie": "home",
+    "iconType": "Arrows",
+    "title": "Versátiles",
+    "description": "Nos adaptamos a las necesidades de cada cliente"
+  },
+  {
+    "id": 13,
+    "categorie": "home",
+    "iconType": "Lightbulb",
+    "title": "Soluciones Personalizadas",
+    "description": "Sabemos que cada proyecto es único"
+  },
+  {
+    "id": 14,
+    "categorie": "home",
+    "iconType": "Handshake",
+    "title": "Colaboración Estrecha",
+    "description": "Trabajamos de cerca para entender tus necesidades"
+  },
+  {
+    "id": 15,
+    "categorie": "home",
+    "iconType": "Map",
+    "title": "Equipos de trabajo",
+    "description": "En el polo de Ezeiza y alrededores y, en GBA Norte y CABA"
+  }
+]
