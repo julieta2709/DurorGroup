@@ -20,76 +20,53 @@ import {
 } from "react-icons/fa";
 import { GiBroom, GiBoxUnpacking, GiHandTruck } from "react-icons/gi";
 import { TbAirConditioning } from "react-icons/tb";
-
-const Icons = ({ iconType }) => {
-  let icon;
+import "../Styles/Icons.css"
+const Icons = (iconType) => {
   switch (iconType) {
     case "Bolt":
-      icon = <FaBolt />;
-      break;
+      return <FaBolt className={iconStyle} />;
     case "Building":
-      icon = <FaBuilding />;
-      break;
+      return <FaBuilding className={iconStyle} />;
     case "Warehouse":
-      icon = <FaWarehouse />;
-      break;
+      return <FaWarehouse className={iconStyle} />;
     case "BusinessTime":
-      icon = <FaBusinessTime />;
-      break;
+      return <FaBusinessTime className={iconStyle} />;
     case "CarBattery":
-      icon = <FaCarBattery />;
-      break;
+      return <FaCarBattery className={iconStyle} />;
     case "ChargingStation":
-      icon = <FaChargingStation />;
-      break;
+      return <FaChargingStation className={iconStyle} />;
     case "Faucet":
-      icon = <FaFaucet />;
-      break;
+      return <FaFaucet className={iconStyle} />;
     case "Hammer":
-      icon = <FaHammer />;
-      break;
+      return <FaHammer className={iconStyle} />;
     case "PaintRoller":
-      icon = <FaPaintRoller />;
-      break;
+      return <FaPaintRoller className={iconStyle} />;
     case "PeopleCarry":
-      icon = <FaPeopleCarry />;
-      break;
+      return <FaPeopleCarry className={iconStyle} />;
     case "Plug":
-      icon = <FaPlug />;
-      break;
+      return <FaPlug className={iconStyle} />;
     case "Toolbox":
-      icon = <FaToolbox />;
-      break;
+      return <FaToolbox className={iconStyle} />;
     case "Wrench":
-      icon = <FaWrench />;
-      break;
+      return <FaWrench className={iconStyle} />;
     case "Arrows":
-      icon = <FaArrowsAlt />;
-      break;
+      return <FaArrowsAlt className={iconStyle} />;
     case "Lightbulb":
-      icon = <FaLightbulb />;
-      break;
+      return <FaLightbulb className={iconStyle} />;
     case "Handshake":
-      icon = <FaRegHandshake />;
-      break;
+      return <FaRegHandshake className={iconStyle} />;
     case "Map":
-      icon = <FaMapMarkedAlt />;
-      break;
+      return <FaMapMarkedAlt className={iconStyle} />;
     case "Broom":
-      icon = <GiBroom />;
-      break;
+      return <GiBroom className={iconStyle} />;
     case "BoxUnpacking":
-      icon = <GiBoxUnpacking />;
-      break;
+      return <GiBoxUnpacking className={iconStyle} />;
     case "HandTruck":
-      icon = <GiHandTruck />;
-      break;
+      return <GiHandTruck className={iconStyle} />;
     case "AirConditioning":
-      icon = <TbAirConditioning />;
-      break;
+      return <TbAirConditioning className={iconStyle} />;
     default:
-      icon = null;
+      return null;
   }
-  return icon;
 };
 export default Icons;

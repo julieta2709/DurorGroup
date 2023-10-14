@@ -2,21 +2,18 @@ import React, { useEffect, useState } from "react";
 import ServicesContainer from "../Components/ServicesContainer";
 import cards from "../cards.json";
 
-const Services = ()=>{
-    const [items, setItems] = useState([]);
+
+const Services = () => {
+  const [items, setItems] = useState([]);
 
   useEffect(() => {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(cards);
-      });
-    });
-    promesa.then((data) => {
-      setItems(data);
-    });
+    const filteredItems = cards.filter((item) => item.categorie === "services");
+    setItems(filteredItems);
   }, []);
-    return (
-        <ServicesContainer items={items}/>
-    )
-}
+  return (
+    <div className="Services">
+      <ServicesContainer items={items} />
+    </div>
+  );
+};
 export default Services;

@@ -37,7 +37,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/servicios" className="nav-link" onClick={handleToggleMenu}>
+          <Link to="/Services" className="nav-link" onClick={handleToggleMenu}>
             Servicios
           </Link>
         </li>
