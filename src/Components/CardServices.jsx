@@ -75,12 +75,13 @@ const CardServices = ({ item, iconType }) => {
     default:
       icon = null;
   }
+  const description = item.description.join("\n");
   return (
     <div className="CardService-container">
       <div>{icon}</div>
       <h3 className="CardService-title">{item.title}</h3>
       <div className="CardService-content">
-        <p className="CardService-description">{item.description}</p>
+        <p className="CardService-description">{description}</p>
         <button className="CardService-button">Conozca más</button>
       </div>
     </div>
