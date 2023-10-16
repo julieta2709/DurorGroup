@@ -1,51 +1,70 @@
-.Card-container {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: rgba(65, 252, 84, 0.2) 0 15px 30px -5px;
-    background-image: linear-gradient(144deg,#7cf909, #30aa07 50%,#bfec9c);
-  }
-  
-  .Card-content {
-    background: rgb(0, 0, 0);
-    border-radius: 17px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
+.CardService-container {
+  position: relative;
+  width: 350px;
+  aspect-ratio: 16/9;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5px;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.CardService-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+.CardService-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #222;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.CardService-container:hover .CardService-content {
+  transform: rotateX(0deg);
+}
 
-  .Card-Icon {
-    width: 64px;
-    height: 64px;
-    margin: 5px 0 5px 0;
-    border: solid 2px rgb(255, 255, 255);
-    border-radius: 50%;
-    padding: 5px;
-  } 
+.CardService-container:hover .CardService-icon .CardService-title {
+  scale: 0;
+}
+.CardService-icon {
+  width: 48px;
+  fill: #ffffff;
+  font-size: 36px;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
 
-  .Card-title, .Card-description {
-    color: rgb(255, 255, 255);
-  }
-  .Card-title {
-    font-family: "Juventus Fans Bold", sans-serif;
-    margin-bottom: 5px;
-    font-size: 2em;
-    text-align: center;
-  }
+.CardService-title,
+.CardService-description {
+  color: rgb(255, 255, 255);
+}
+.CardService-title {
+  font-family: "Juventus Fans Bold", sans-serif;
+  margin-bottom: 5px;
+  font-size: 2em;
+  text-align: center;
+}
 
-  .Card-description {
-    text-align: center;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 1em;
-    padding: 5px;
-  }
-  @media screen and (max-width: 768px) {
-    .Card-container {
-      margin-bottom: 10px;
-    }
-  }
-  
+.CardService-description {
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.CardService-button {
+  padding: 15px;
+  border-radius: 8px;
+  background: #777;
+  border: none;
+  color: white;
+}

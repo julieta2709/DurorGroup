@@ -6,7 +6,7 @@ const ServicesContainer = ({items}) => {
     <div className="Services-container">
       {items.map(item => 
         <div key={item.id}>
-          <CardServices item={item} />
+          <CardServices item={item} iconType={item.iconType} />
         </div>
       )}
     </div>
