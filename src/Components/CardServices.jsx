@@ -14,8 +14,9 @@ import {
   FaToolbox,
   FaWrench,
 } from "react-icons/fa";
+import { LuAirVent } from "react-icons/lu";
 import { GiBroom, GiBoxUnpacking, GiHandTruck } from "react-icons/gi";
-import { TbAirConditioning } from "react-icons/tb";
+import { Tb24Hours } from "react-icons/tb";
 import "../Styles/CardServices.css";
 
 const CardServices = ({ item, iconType }) => {
@@ -70,7 +71,10 @@ const CardServices = ({ item, iconType }) => {
       icon = <GiHandTruck className="CardService-icon" />;
       break;
     case "AirConditioning":
-      icon = <TbAirConditioning className="CardService-icon" />;
+      icon = <LuAirVent className="CardService-iconTbh" />;
+      break;
+    case "Hours":
+      icon = <Tb24Hours className="CardService-iconTbh" />;
       break;
     default:
       icon = null;

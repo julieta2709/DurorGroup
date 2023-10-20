@@ -5,7 +5,7 @@
     "iconType": "Plug",
     "title": "Mantenimiento eléctrico",
     "description": [
-      "Predictivo, Preventivo y Correctivo",
+      "Predictivo, Preventivo y Correctivo.",
       "Instalación y mantenimiento de tableros eléctricos.",
       "Cableado en general y subterráneo, puesta a tierra.",
       "Instalación y mantenimiento de luminarias (interior y exterior), bandejas aéreas, tomas, etc."
@@ -25,20 +25,19 @@
     "title": "Mantenimiento de Techos",
     "description": [
       "Reparación y arreglo de todo tipo de techos en plantas industriales y centros de distribución.",
-      "Trabajos de zinguería"
+      "Trabajos de zinguería."
     ]
   },
   {
     "id": 4,
     "categorie": "services",
     "iconType": "AirConditioning",
-    "title": "Mantenimiento de Sistemas de Refrigeración",
+    "title": "Sistemas de Refrigeración",
     "description": [
-      "Predictivo, Preventivo y Correctivo",
-      "Limpieza, ajuste y reemplazo de equipos domiciliarios e industriales",
-      "Equipos centralizados, Enfriadoras, Torres de enfriamiento",
-      "Instalación de equipos de refrigeración industriales y domiciliarios",
-      "Atención de urgencias"
+      "Predictivo, Preventivo y Correctivo.",
+      "Limpieza, ajuste y reemplazo de equipos domiciliarios e industriales.",
+      "Equipos centralizados, Enfriadoras, Torres de enfriamiento.",
+      "Instalación de equipos de refrigeración industriales y domiciliarios."
     ]
   },
   {
@@ -47,10 +46,9 @@
     "iconType": "ChargingStation",
     "title": "Mantenimiento de grupos electrógenos",
     "description": [
-      "Predictivo, Preventivo y Correctivo",
-      "Instalación de equipos",
-      "Limpieza de equipos, reemplazo de consumibles",
-      "Atención de urgencias"
+      "Predictivo, Preventivo y Correctivo.",
+      "Instalación de equipos.",
+      "Limpieza de equipos, reemplazo de consumibles."
     ]
   },
   {
@@ -59,11 +57,10 @@
     "iconType": "Wrench",
     "title": "Mantenimiento de calderas",
     "description": [
-      "Predictivo, Preventivo y Correctivo",
-      "Instalación de equipos",
-      "Limpieza de equipos",
-      "Reparaciones",
-      "Atención de urgencias"
+      "Predictivo, Preventivo y Correctivo.",
+      "Instalación de equipos.",
+      "Limpieza de equipos.",
+      "Reparaciones."
     ]
   },
   {
@@ -72,9 +69,9 @@
     "iconType": "Building",
     "title": "Obra Civil",
     "description": [
-      "Proyectos llave en mano",
-      "Reparaciones y reformas",
-      "Montajes (personal fijo o spot)"
+      "Proyectos llave en mano.",
+      "Reparaciones y reformas.",
+      "Montajes (personal fijo o spot)."
     ]
   },
   {
@@ -82,7 +79,7 @@
     "categorie": "services",
     "iconType": "BusinessTime",
     "title": "Facility Mangement",
-    "description": ["Gestionamos los servicios para empresas e industrias"]
+    "description": ["Gestionamos los servicios para empresas e industrias."]
   },
   {
     "id": 9,
@@ -90,9 +87,9 @@
     "iconType": "Broom",
     "title": "Servicios",
     "description": [
-      "Limpieza final de obra",
-      "Personal eventual",
-      "Limpieza de oficinas"
+      "Limpieza final de obra.",
+      "Personal eventual.",
+      "Limpieza de oficinas."
     ]
   },
   {
@@ -101,7 +98,7 @@
     "iconType": "HandTruck",
     "title": "Provisión de insumos",
     "description": [
-      "Proveemos materiales, insumos, maquinas, equipamiento para empresas, facilitamos todo tipo de producto que el cliente necesite"
+      "Proveemos materiales, insumos, maquinas, equipamiento para empresas, facilitamos todo tipo de producto que el cliente necesite."
     ]
   },
   {
@@ -110,8 +107,8 @@
     "iconType": "Toolbox",
     "title": "Otros",
     "description": [
-      "Colocación de vidrios en equipos móviles",
-      "Limpieza de baterías"
+      "Colocación de vidrios en equipos móviles.",
+      "Limpieza de baterías."
     ]
   },
   {
@@ -141,5 +138,14 @@
     "iconType": "Map",
     "title": "Equipos de trabajo",
     "description": "En el polo de Ezeiza y alrededores y, en GBA Norte y CABA"
+  },
+  {
+    "id": 16,
+    "categorie": "services",
+    "iconType": "Hours",
+    "title": "Urgencias",
+    "description": [
+      "Ofrecemos un servicio de atención de urgencias las 24 horas todos los días. Nuestro equipo, altamente capacitado, puede resolver cualquier inconveniente para garantizar el correcto funcionamiento de sistemas críticos como: refrigeración, grupos electrógenos, calderas, etc."
+    ]
   }
 ]
