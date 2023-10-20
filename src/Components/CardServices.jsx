@@ -81,7 +81,7 @@ const CardServices = ({ item, iconType }) => {
   }
   const description = item.description.join("\n");
   return (
-    <div className="CardService-container">
+    <div className="CardService">
       <div className="CardService-front">
         {icon}
         <h3 className="CardService-title">{item.title}</h3>
