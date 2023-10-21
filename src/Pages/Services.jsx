@@ -12,6 +12,7 @@ const Services = () => {
   }, []);
   return (
     <div className="Services">
+      <h2>Nuestros Servicios:</h2>
       <ServicesContainer items={items} />
     </div>
   );

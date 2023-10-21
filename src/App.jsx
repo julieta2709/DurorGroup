@@ -7,26 +7,45 @@ import Works from "./Pages/Works";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import WhatsappButton from "./Components/WhatsappButton";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  BrowserRouter,
+  useLocation,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App-container">
-      <BrowserRouter>
+ 
         <Header />
         <Routes>
-          <Route path={"/"} element={<Home />} />
+          <Route path={"/"} element={<HomeWithServices />} />
           <Route path={"/Services"} element={<Services />} />
           <Route path={"/Works"} element={<Works />} />
           <Route path={"/Clients"} element={<Clients />} />
           <Route path={"/Contact"} element={<Contact />} />
         </Routes>
-        <Services />
-        <Contact />
         <WhatsappButton />
         <Footer />
-      </BrowserRouter>
+
     </div>
+  );
+}
+function HomeWithServices() {
+  const location = useLocation();
+
+  if (location.pathname !== "/") {
+    return null;
+  }
+
+  return (
+    <>
+      <Home />
+      <Services />
+      <Clients />
+      <Contact />
+    </>
   );
 }
 
