@@ -32,7 +32,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/trabajos" className="nav-link" onClick={handleToggleMenu}>
+          <Link to="/Works" className="nav-link" onClick={handleToggleMenu}>
             Trabajos
           </Link>
         </li>
@@ -42,12 +42,12 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/clientes" className="nav-link" onClick={handleToggleMenu}>
+          <Link to="/Clients" className="nav-link" onClick={handleToggleMenu}>
             Clientes
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/contacto" className="nav-link" onClick={handleToggleMenu}>
+          <Link to="/Contact" className="nav-link" onClick={handleToggleMenu}>
             Contacto
           </Link>
         </li>

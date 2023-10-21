@@ -86,7 +86,7 @@ const CardServices = ({ item, iconType }) => {
         {icon}
         <h3 className="CardService-title">{item.title}</h3>
       </div>
-      <div className="CardService-content">
+      <div className="CardService-back">
         <p className="CardService-description">{description}</p>
         <button className="CardService-button">Conozca más</button>
       </div>

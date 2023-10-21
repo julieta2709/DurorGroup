@@ -1,12 +1,18 @@
-.CardService{
+.CardService {
   height: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  transition: none;
+}
+.CardService-front {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   cursor: pointer;
+  width: 350px;
   aspect-ratio: 16/9;
   max-width: 80%;
   padding: 10px;
@@ -16,14 +22,8 @@
   box-shadow: 0 0 0 5px #ffffff80;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.CardService-front {
-  width: 350px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
-.CardService-content {
+.CardService-back {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,14 +38,20 @@
   box-sizing: border-box;
   background-color: #222;
   border-radius: 20px;
-  box-shadow: 0 0 0 5px #ffffff80, 0 8px 16px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 5px #ffffff80;
   transform: rotateX(-90deg);
   transform-origin: bottom;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transform: rotateX(0deg);
 }
-
-.CardService-icon .CardService-title {
+.CardService:hover {
+  transform: scale(1.05);
+  border-radius: 20px;
+}
+.CardService:hover .CardService-back {
+  transform: rotateX(0deg);
+  transform: translateY(-10px);
+}
+.CardService:hover .CardService-icon .CardService-title {
   transform: scale(0);
 }
 
@@ -92,8 +98,7 @@
   font-size: 1em;
   line-height: 1.5;
   white-space: pre-line;
-  padding-left: 20px;
-  padding: 10px;
+  padding: 10px 20px 10px 30px;
 }
 
 .CardService-button {
@@ -106,4 +111,7 @@
   font-family: "Juventus Fans Bold", sans-serif;
   font-size: 2em;
   cursor: pointer;
+}
+.CardService-button:hover {
+  background-color: #00aae9;
 }
