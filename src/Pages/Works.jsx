@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import WorkContainer from "../Components/WorkContainer";
+import cards from "../cards.json";
+import "../Styles/ServicesStyle.css";
+
 const Works = () => {
-    return (
-        <h1>Trabajos</h1>
-    )
-}
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    const filteredItems = cards.filter((item) => item.categorie === "works");
+    setItems(filteredItems);
+  }, []);
+  return (
+    <div className="Works">
+      <h2>Trabajos realizadoss:</h2>
+      <WorkContainer items={items} />
+    </div>
+  );
+};
 export default Works;

@@ -147,5 +147,118 @@
     "description": [
       "Ofrecemos un servicio de atención de urgencias las 24 horas todos los días. Nuestro equipo, altamente capacitado, puede resolver cualquier inconveniente para garantizar el correcto funcionamiento de sistemas críticos como: refrigeración, grupos electrógenos, calderas, etc."
     ]
+  },
+  {
+    "id": 17,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "BGH",
+    "title": "Escalera de emergencia",
+    "description": [
+      "En el trabajo realizado, se fabricaron pasarelas, escaleras, plataformas y pasamanos en nuestro taller.",
+      "Los componentes fueron pintados en el taller y luego instalados.",
+      "También se brindó transporte con camión y descarga con grúa.",
+      "Se realizó la instalación de la estructura principal y los tramos con la ayuda de una grúa de izaje.",
+      "También se realizaron obras civiles para abrir puertas de emergencia, incluyendo la creación de salidas y la instalación de puertas.",
+      "Además, se llevó a cabo la limpieza y transporte de materiales sobrantes de la obra.",
+      "Todos los trabajos se llevaron a cabo cumpliendo con protocolos de higiene y seguridad."
+    ]
+  },
+  {
+    "id": 18,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "BGH",
+    "title": "Pintura de Fachada centro de distribución",
+    "description": [
+      "Se llevó a cabo la reparación de placas cementicias y la aplicación de base coat",
+      "Además, se aplicaron 4 manos de pintura exterior impermeabilizante en una superficie de 290 m2.",
+      "Todos los trabajos se llevaron a cabo cumpliendo con protocolos de higiene y seguridad."
+    ]
+  },
+  {
+    "id": 19,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Informática Fueguina",
+    "title": "Montaje de líneas de producción",
+    "description": [
+      "Se realizó el armado de los puestos de trabajo según el plano, así como también el armado de los tableros trifásicos.",
+      "Se llevó a cabo la conexión de los cables UTP y se instaló un tablero Patch Panel de 24 puertos.",
+      "Además, se instalaron paradas de emergencia y se llevó a cabo la iluminación con tecnología LED.",
+      "Se realizaron también cableados subterráneos y se instaló un total de 400 tomas dobles, así como también, bandejas aéreas.",
+      "Todos los trabajos se llevaron a cabo cumpliendo con protocolos de higiene y seguridad."
+    ]
+  },
+  {
+    "id": 20,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Akai Energy",
+    "title": "Revisión y reparación de techos",
+    "description": [
+      "Se llevó a cabo la revisión del techo para identificar las áreas afectadas, y posteriormente se realizó la reparación de las mismas. Además, se aplicaron selladores para evitar filtraciones de agua y prevenir futuros daños en el techo.",
+      "Todos los trabajos se llevaron a cabo cumpliendo con protocolos de higiene y seguridad."
+    ]
+  },
+  {
+    "id": 21,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Banco Galicia - suc. Rosario",
+    "title": "Sistemas de Refrigeración",
+    "description": [
+      "Se realizó el mantenimiento programado del sistema de refrigeración, el cual incluyó el reemplazo del moto compresor en el equipo central. Posteriormente, se procedió a la puesta en marcha del sistema y se realizó un control exhaustivo para verificar su correcto funcionamiento."
+    ]
+  },
+  {
+    "id": 22,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Banco Macro - suc. Boedo",
+    "title": "Sistemas de Refrigeración",
+    "description": [
+      "Se llevó a cabo el mantenimiento preventivo del sistema de refrigeración, el cual incluyó la limpieza y ajuste de los equipos. Se realizaron las tareas necesarias para garantizar un óptimo funcionamiento del sistema, asegurando así su eficiencia y durabilidad."
+    ]
+  },
+  {
+    "id": 23,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Oficinas en Palermo",
+    "title": "Sistemas de Refrigeración",
+    "description": [
+      "Realizamos la instalación de sistemas de refrigeración, tanto para equipos domiciliarios como industriales. Contamos con personal altamente capacitado y con experiencia en la colocación y puesta en marcha de sistemas de refrigeración de todo tipo. Nos aseguramos de que el trabajo se realice de manera adecuada y segura, garantizando así el correcto funcionamiento del sistema."
+    ]
+  },
+  {
+    "id": 24,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Consejo Deliberante de Berazategui",
+    "title": "Mantenimiento de calderas",
+    "description": [
+      "Nos encargamos de suministrar e instalar la resistencia eléctrica necesaria para la calefacción central que alimenta el salón general del Honorable Consejo Deliberante de Berazategui."
+    ]
+  },
+  {
+    "id": 25,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Municipalidad de Berazategui - Centro de Monitoreo",
+    "title": "Mantenimiento de sistema de regrigeración",
+    "description": [
+      "Se realizó el mantenimiento programado en la sala de CCTV, donde se llevó a cabo el reemplazo de los equipos Split. Esta sala cuenta con 4 módulos de racks refrigerados que funcionan las 24 horas del día. Nuestro equipo se encargó de realizar el reemplazo de los equipos de manera eficiente, asegurando un correcto enfriamiento y funcionamiento continuo de los racks en la sala de CCTV."
+    ]
+  },
+  {
+    "id": 26,
+    "categorie": "works",
+    "iconType": "",
+    "cliente": "Banco Galicia - suc. Paraná",
+    "title": "Mantenimiento de sistema de regrigeración",
+    "description": [
+      "Se presentó una situación de urgencia en la que se detectó un compresor semi-hermético quemado y un sistema de agua obstruido. El equipo en cuestión cuenta con 2 compresores y un sistema de agua. Se abordó esta situación de manera inmediata para restaurar el funcionamiento operativo del equipo. Se realizó el reemplazo del compresor dañado y la limpieza del sistema de agua para eliminar la obstrucción. Nuestro equipo técnico está preparado para resolver urgencias y garantizar el correcto funcionamiento del equipo."
+    ]
   }
 ]
