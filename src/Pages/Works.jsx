@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import WorkContainer from "../Components/WorkContainer";
 import cards from "../cards.json";
-import "../Styles/ServicesStyle.css";
+import "../Styles/PagesStyles.css";
 
 const Works = () => {
   const [items, setItems] = useState([]);
@@ -12,7 +12,7 @@ const Works = () => {
   }, []);
   return (
     <div className="Works">
-      <h2>Trabajos realizadoss:</h2>
+      <h2>Trabajos realizados:</h2>
       <WorkContainer items={items} />
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ServicesContainer from "../Components/ServicesContainer";
 import cards from "../cards.json";
-import "../Styles/ServicesStyle.css";
+import "../Styles/PagesStyles.css";
 
 const Services = () => {
   const [items, setItems] = useState([]);

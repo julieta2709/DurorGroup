@@ -1,6 +1,6 @@
 import React from "react";
 import CardServices from "./CardServices";
-import "../Styles/ServicesStyle.css"
+import "../Styles/PagesStyles.css"
 const ServicesContainer = ({items}) => {
   return (
     <div className="Services-container">
