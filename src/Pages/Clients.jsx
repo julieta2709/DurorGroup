@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../Components/Carousel";
+import CarouselClient from "../Components/CarouselClient";
 import akaiEnergy from "../assets/clientes/akaiEnergy.png";
 import armada from "../assets/clientes/armada.png";
 import BGHlogo from "../assets/clientes/BGHlogo.png";
@@ -26,7 +26,7 @@ const Clients = () => {
   return (
     <div className="Clients">
       <h2>Contamos con la confianza de:</h2>
-      <Carousel images={images} />
+      <CarouselClient images={images} />
     </div>
   );
 };

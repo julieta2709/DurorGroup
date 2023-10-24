@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Carousel.css";
 
-function Carousel({ images }) {
+function CarouselClient({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ function Carousel({ images }) {
   );
 }
 
-export default Carousel;
+export default CarouselClient;

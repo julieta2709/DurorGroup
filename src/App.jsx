@@ -36,6 +36,7 @@ function HomeWithServices() {
     <>
       <Home />
       <Services />
+      <Works />
       <Clients />
       <Contact />
     </>
