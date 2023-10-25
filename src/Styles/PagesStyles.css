@@ -1,5 +1,6 @@
  h2 {
   font-size: 3em;
+  margin: 10px 0 10px 0;
 }
 .Services-container, .Work-container {
   display: flex;

@@ -32,6 +32,7 @@ h2 {
   font-weight: bold;
   font-size: 2em;
   font-family: "Juventus Fans Bold", sans-serif;
+  display: block;
 }
 @media screen and (max-width: 768px) {
   .Home-cardContainer {

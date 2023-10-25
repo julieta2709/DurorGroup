@@ -1,0 +1,24 @@
+.CardWork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CardWork-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 20px;
+}
+.CardWork-title,
+.CardWorkd-description {
+  color: white;
+}
+.CardWork-title {
+  font-family: "Juventus Fans Bold", sans-serif;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.CardWorkd-description {
+    font-family: Verdana, Tahoma, sans-serif;
+  }
