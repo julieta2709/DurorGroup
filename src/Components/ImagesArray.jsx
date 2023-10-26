@@ -1,5 +1,4 @@
 import React from "react";
-import "../Styles/CardWork.css";
 import AkaiTecho2 from "../assets/trabajos/AkaiTecho2.jpg";
 import AkaiTecho3 from "../assets/trabajos/AkaiTecho3.jpg";
 import AkaiTecho4 from "../assets/trabajos/AkaiTecho4.jpg";
@@ -38,63 +37,55 @@ import urg1 from "../assets/trabajos/urg1.jpg";
 import urg2 from "../assets/trabajos/urg2.jpg";
 import urg3 from "../assets/trabajos/urg3.png";
 import urg4 from "../assets/trabajos/urg4.png";
-import LogoDuror from "../assets/LogoDuror-removebg.png";
 import CarouselWork from "./CarouselWork";
 
-const AkaiTecho = [AkaiTecho2, AkaiTecho3, AkaiTecho4];
-const caldera = [caldera1, caldera2];
-const cctv = [cctv1, cctv2, cctv3];
-const Escalera = [
-  Escalera7,
-  EscaleraFinal1,
-  EscaleraFinal2,
-  EscaleraFinal6,
-  EscaleraFinal7,
-];
-const Linea = [Linea1, Linea2, Linea3, Linea4, Linea5, Linea6];
-const macro = [macro1, macro2, macro3];
-const oficina = [oficina1, oficina2, oficina3];
-const Pintura = [pintura1, pintura2, pintura3, pintura4];
-const rosario = [rosario1, rosario2, rosario3, rosario4, rosario5];
-const urg = [urg1, urg2, urg3, urg4];
+const ImagesArray = () => {
+  const AkaiTecho = [AkaiTecho2, AkaiTecho3, AkaiTecho4];
+  const caldera = [caldera1, caldera2];
+  const cctv = [cctv1, cctv2, cctv3];
+  const Escalera = [Escalera7, EscaleraFinal1, EscaleraFinal2, EscaleraFinal6, EscaleraFinal7];
+  const Linea = [Linea1, Linea2, Linea3, Linea4, Linea5, Linea6];
+  const macro = [macro1, macro2, macro3];
+  const oficina = [oficina1, oficina2, oficina3];
+  const Pintura = [pintura1, pintura2, pintura3, pintura4];
+  const rosario = [rosario1, rosario2, rosario3, rosario4, rosario5];
+  const urg = [urg1, urg2, urg3, urg4];
 
-const CardWork = ({ item }) => {
-  let images = [];
-  if (item.id === 17) {
-    images = Escalera;
-  } else if (item.id === 18) {
-    images = Pintura;
-  } else if (item.id === 19) {
-    images = Linea;
-  } else if (item.id === 20) {
-    images = AkaiTecho;
-  } else if (item.id === 21) {
-    images = rosario;
-  } else if (item.id === 22) {
-    images = macro;
-  } else if (item.id === 23) {
-    images = oficina;
-  } else if (item.id === 24) {
-    images = caldera;
-  } else if (item.id === 25) {
-    images = cctv;
-  } else if (item.id === 26) {
-    images = urg;
-  }
+  
   return (
-    <div className="CardWork">
-      <div className="CardWork-container">
-        <div className="CardWork-header">
-          <img className="logo" src={LogoDuror} alt="Logo Duror Group" />
-          <h3 className="CardWork-title">{item.title}</h3>
-        </div>
-        <div className="CardWork-images">
-          <CarouselWork images={images} />
-        </div>
-        <p className="CardWorkd-description">{item.description}</p>
+    <div>
+      <div>
+        <CarouselWork images={caldera} />
+      </div>
+      <div>
+        <CarouselWork images={AkaiTecho} />
+      </div>
+      <div>
+        <CarouselWork images={cctv} />
+      </div>
+      <div>
+        <CarouselWork images={Escalera} />
+      </div>
+      <div>
+        <CarouselWork images={Linea} />
+      </div>
+      <div>
+        <CarouselWork images={macro} />
+      </div>
+      <div>
+        <CarouselWork images={oficina} />
+      </div>
+      <div>
+        <CarouselWork images={Pintura} />
+      </div>
+      <div>
+        <CarouselWork images={rosario} />
+      </div>
+      <div>
+        <CarouselWork images={urg} />
       </div>
     </div>
   );
 };
 
-export default CardWork;
+export default ImagesArray;

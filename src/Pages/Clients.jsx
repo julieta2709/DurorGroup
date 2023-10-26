@@ -10,6 +10,7 @@ import igenar from "../assets/clientes/igenar.png";
 import larocca from "../assets/clientes/larocca.png";
 import omnisat from "../assets/clientes/omnisat.jpg";
 import "../Styles/Carousel.css";
+import "../Styles/PagesStyles.css";
 
 const Clients = () => {
   const images = [

@@ -26,3 +26,9 @@
   margin-bottom: 90px;
   margin-top: 40px;
 }
+.Clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

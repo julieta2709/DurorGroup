@@ -1,28 +1,27 @@
 .carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-  
-  .carousel-image {
-    width: 300px; 
-    height: 200px;
-    object-fit: contain;
-    border-radius: 20px;
-    padding: 10px;
-    border: solid 5px #ffffff80;
-  }
-  .Clients h2 {
-    font-size: 3em;
-  }
-  .carousel-button {
-    height: 200px;
-    width: 50px;
-    font-size: 3em;
-    font-weight: bold;
-    margin: 10px;
-    color: white;
-    background-color: #222;
-    border: none;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.carousel-image {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+  padding: 10px;
+}
+.Clients h2 {
+  font-size: 3em;
+}
+.carousel-button {
+  height: 50px;
+  width: 50px;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-radius: 50px;
+  background-color:  #7cf909;
+}

@@ -26,15 +26,15 @@ const CarouselWork = ({ images }) => {
       <button onClick={handlePrevImage} className="carousel-button">
         {"<"}
       </button>
-      {ImagesArray.AkaiTecho.map((image, index) => (
-        <div key={index}>
+      {images[currentImageIndex] && (
+        <div>
           <img
-            src={image}
-            alt={`Image ${index + 1}`}
+            src={images[currentImageIndex]}
+            alt={`Image ${currentImageIndex + 1}`}
             className="carousel-image"
           />
         </div>
-      ))}
+      )}
       <button onClick={handleNextImage} className="carousel-button">
         {">"}
       </button>
