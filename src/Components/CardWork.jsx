@@ -39,6 +39,7 @@ import urg2 from "../assets/trabajos/urg2.jpg";
 import urg3 from "../assets/trabajos/urg3.png";
 import urg4 from "../assets/trabajos/urg4.png";
 import LogoDuror from "../assets/LogoDuror-removebg.png";
+
 import CarouselWork from "./CarouselWork";
 
 const AkaiTecho = [AkaiTecho2, AkaiTecho3, AkaiTecho4];
@@ -81,17 +82,18 @@ const CardWork = ({ item }) => {
   } else if (item.id === 26) {
     images = urg;
   }
+  const description = item.description.join("\n");
   return (
     <div className="CardWork">
       <div className="CardWork-container">
-        <div className="CardWork-header">
-          <img className="logo" src={LogoDuror} alt="Logo Duror Group" />
-          <h3 className="CardWork-title">{item.title}</h3>
-        </div>
         <div className="CardWork-images">
           <CarouselWork images={images} />
         </div>
-        <p className="CardWorkd-description">{item.description}</p>
+        <div className="CardWork-header">
+          <h3 className="CardWork-title">{item.title}</h3>
+        </div>
+        <p className="CardWorkd-description">{description}</p>
+        <img className="logoDuror" src={LogoDuror} alt="Logo Duror Group" />
       </div>
     </div>
   );

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Carousel.css";
+import {FaChevronCircleRight, FaChevronCircleLeft}  from "react-icons/fa";
+
 
 function CarouselClient({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -25,7 +27,7 @@ function CarouselClient({ images }) {
   return (
     <div className="carousel-container">
       <button onClick={handlePrevImage} className="carousel-button">
-        {"<"}
+        <FaChevronCircleLeft/>
       </button>
       <img
         src={images[currentImageIndex]}
@@ -33,7 +35,7 @@ function CarouselClient({ images }) {
         className="carousel-image"
       />
       <button onClick={handleNextImage} className="carousel-button">
-        {">"}
+        <FaChevronCircleRight/>
       </button>
     </div>
   );

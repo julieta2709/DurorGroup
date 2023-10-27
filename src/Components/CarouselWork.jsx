@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "../Styles/Carousel.css";
+import "../Styles/CarouselWork.css";
+import { FaChevronCircleRight, FaChevronCircleLeft } from "react-icons/fa";
 
 const CarouselWork = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -22,22 +23,24 @@ const CarouselWork = ({ images }) => {
     );
   };
   return (
-    <div className="carousel-container">
-      <button onClick={handlePrevImage} className="carousel-button">
-        {"<"}
-      </button>
+    <div className="carouselWork-container">
       {images[currentImageIndex] && (
-        <div>
+        <div className="carouselWork-image-container">
           <img
             src={images[currentImageIndex]}
             alt={`Image ${currentImageIndex + 1}`}
-            className="carousel-image"
+            className="carouselWork-image"
           />
         </div>
       )}
-      <button onClick={handleNextImage} className="carousel-button">
-        {">"}
-      </button>
+      <div className="carousel-buttons">
+        <button onClick={handlePrevImage} className="carouselWork-button">
+          <FaChevronCircleLeft />
+        </button>
+        <button onClick={handleNextImage} className="carouselWork-button">
+          <FaChevronCircleRight />
+        </button>
+      </div>
     </div>
   );
 };

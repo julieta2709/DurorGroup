@@ -5,16 +5,21 @@
 .Services-container, .Work-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.CardService-container, .CardWork-container {
+.CardService-container, .WorkCard-container {
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   position: relative;
   overflow: visible;
+  margin: 20px;
+}
+.WorkCard-container {
+  width: 40%;
+  margin: 5px;
 }
 .Services-container .CardService-container {
   margin-top: 20px;
