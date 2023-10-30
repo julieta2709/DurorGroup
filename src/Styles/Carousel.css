@@ -24,3 +24,16 @@
   border: solid 1px #7cf909;
   border-radius: 50px;
 }
+@media screen and (max-width: 768px) {
+  .carousel-image {
+    width: 230px;
+    height: 200px;
+  }
+  .carousel-button {
+    height: 30px;
+    width: 30px;
+    font-size: 2em;
+  margin: 5px;
+
+  }
+}

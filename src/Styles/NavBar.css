@@ -64,6 +64,7 @@
 @media screen and (max-width: 768px) {
   .logo {
     width: 2em;
+    margin: 5px;
   }
   .navbar-logo {
     font-size: 2.5rem;
@@ -72,18 +73,19 @@
     display: none;
   }
   .navbar-logo .logo-group {
-    margin-right: 5npm px;
+    margin-right: 10px;
   }
   .nav-menu.active {
     display: flex;
     margin: 1rem;
     flex-direction: column;
-    align-items: center;
     z-index: 9999;
     position: absolute;
     top: 10%;
-    width: 80%;
-    background-color: #ffffff;
+    right: 0%;
+    width: 60%;
+    border-radius: 20px;
+    background-color: #e2e2e2;
   }
   .navbar-menu {
     display: flex;
@@ -96,11 +98,17 @@
     background-color: #ffffff;
     padding: 1px;
     border: #333;
-    border-radius: 2px;
+    border-radius: 5px;
     border-style: solid;
+    margin-left: 3px;
   }
   .navbar-menu:hover {
     background-color: rgb(43, 180, 43);
     color: #ffffff;
+  }
+  .nav-link {
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 10px;
   }
 }

@@ -17,6 +17,7 @@ import {
 import { LuAirVent } from "react-icons/lu";
 import { GiBroom, GiBoxUnpacking, GiHandTruck } from "react-icons/gi";
 import { Tb24Hours } from "react-icons/tb";
+import { Link } from "react-router-dom";
 import "../Styles/CardServices.css";
 
 const CardServices = ({ item, iconType }) => {
@@ -88,7 +89,9 @@ const CardServices = ({ item, iconType }) => {
       </div>
       <div className="CardService-back">
         <p className="CardService-description">{description}</p>
+        <Link to="/Contact">
         <button className="CardService-button">Conozca más</button>
+        </Link>
       </div>
     </div>
   );

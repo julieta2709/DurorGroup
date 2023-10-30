@@ -5,6 +5,7 @@
   padding: 10px;
   width: 100%;
   margin: 20px;
+  flex-wrap: wrap;
 }
 .CardWork-container {
   display: flex;
@@ -51,4 +52,9 @@
   height: auto;
   width: 20%;
   margin: 5px;
+}
+@media screen and (max-width: 768px) {
+  .CardWork {
+    margin: 10px;
+  }
 }

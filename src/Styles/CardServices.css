@@ -40,8 +40,7 @@
   border-radius: 20px;
   box-shadow: 0 0 0 5px #ffffff80;
   transform: rotateX(-90deg);
-  transform-origin: bottom;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-origin: top;
 }
 .CardService:hover {
   transform: scale(1.05);
@@ -49,7 +48,7 @@
 }
 .CardService:hover .CardService-back {
   transform: rotateX(0deg);
-  transform: translateY(-10px);
+  transform: translateY(0);
 }
 .CardService:hover .CardService-icon .CardService-title {
   transform: scale(0);
@@ -114,4 +113,11 @@
 }
 .CardService-button:hover {
   background-color: #00aae9;
+}
+
+@media screen and (max-width: 768px) {
+  .CardService-back {
+    width: 312px;
+    left: 8%;
+  }
 }

@@ -37,3 +37,15 @@
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .Work-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .WorkCard-container {
+    width: 80%;
+  }
+  h2 {
+    margin: 0 10px 0 10px;
+  }
+}
